@@ -1,4 +1,7 @@
+counter = 0
+
 def find_element_index(array, value_to_find)
+<<<<<<< HEAD
 counter = 0
   while array[counter] do
     i = array[counter]
@@ -8,6 +11,17 @@ counter = 0
     counter += 1
   end
   return nil 
+=======
+  while array[counter] do
+    i = array[counter]
+    i
+    if i = value_to_find 
+    else
+      puts value_to_find 
+    end
+    counter += 1
+  end
+>>>>>>> 5a9d80c08e65e84b63030965d3444a2e791a3a59
 end
 
 def find_max_value(array)
